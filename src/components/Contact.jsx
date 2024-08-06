@@ -11,17 +11,19 @@ const Contact = () => {
                 About <span>Me</span>
               </h3>
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                eos, quam vel quisquam, explicabo sit labore dignissimos optio
-                ratione quibusdam doloribus pariatur consequuntur sint.
-                Reprehenderit cupiditate possimus facere quasi voluptatem?
+                Self-taught front-end developer with a strong foundation in web
+                development acquired through dedicated self-learning and
+                hands-on projects. Committed to continous improvement, I
+                maintain an updated skill set and showcase my technical prowess
+                through a portfolio demonstrating responsive and visually
+                engaging web interfaces.
               </p>
             </div>
 
             <div className="flex mt-10 items-center gap-7">
               <div className="bg-gray-800/40 p-4 rounded-lg">
                 <h3 className="md:text-4xl text-2xl font-semibold text-white">
-                  11
+                  10
                   <span>+</span>
                 </h3>
                 <p className="text-xs md:text-base">
@@ -40,7 +42,7 @@ const Contact = () => {
 
               <div className="bg-gray-800/40 p-5 rounded-lg">
                 <h3 className="md:text-4xl text-2xl font-semibold text-white">
-                  5<span>+</span>
+                  2<span>+</span>
                 </h3>
                 <p className="text-xs md:text-base">
                   <span>happy clients</span>

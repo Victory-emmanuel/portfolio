@@ -3,24 +3,16 @@ import Reveal from "./Reveal";
 
 const experiences = [
   {
-    company: "First Company",
-    period: "2020 - Present",
-    description: "Description of your experience in this company.",
+    company: "Dimchi",
+    period: "2023 - 2024",
+    description:
+      "Independently built a responsive landing page for showcasing hair products, leveraging React.js, Styled-components, and Material-UI.",
   },
   {
-    company: "Second Company",
-    period: "2020 - Present",
-    description: "Description of your experience in this company.",
-  },
-  {
-    company: "Third Company",
-    period: "2020 - Present",
-    description: "Description of your experience in this company.",
-  },
-  {
-    company: "Fourth Company",
-    period: "2020 - Present",
-    description: "Description of your experience in this company.",
+    company: "The Brown Patience Company",
+    period: "2024 - Present",
+    description:
+      "Utilized TinyMce to streamline blog content management, leading to an increase in publishing efficiency and a more engaging user experience.",
   },
 ];
 

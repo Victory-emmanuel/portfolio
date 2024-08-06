@@ -8,7 +8,7 @@ import { BiLogoTailwindCss } from "react-icons/bi";
 import { DiCss3, DiHtml5, DiJavascript1, DiReact } from "react-icons/di";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-
+import resume from "../assets/my-resume.pdf";
 const Hero = () => {
   return (
     <div className="mt-24 max-w-[1200px] mx-auto relative">
@@ -72,7 +72,12 @@ const Hero = () => {
               <div className=" flex flex-wrap gap-4  md:w-auto text-center">
                 <button id="custom-btn">
                   <span>
-                    <Link href="#"></Link>
+                    <a
+                      href={resume}
+                      download=""
+                      target="_blank"
+                      rel="noreferrer"
+                    ></a>
                   </span>
                 </button>
               </div>
@@ -86,7 +91,10 @@ const Hero = () => {
                 <AiOutlineGithub />
               </motion.a>
 
-              <motion.a whileHover={{ scale: 1.2 }} href="#">
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                href="www.linkedin.com/in/victory-emmanuel-54a090234"
+              >
                 <AiOutlineLinkedin />
               </motion.a>
 

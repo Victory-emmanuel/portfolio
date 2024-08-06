@@ -1,16 +1,12 @@
-import project1 from "../assets/project1.png";
-import project2 from "../assets/project2.png";
-import project4 from "../assets/project4.png";
-import project5 from "../assets/project5.png";
-import project6 from "../assets/project6.png";
 import { AiFillGithub, AiOutlineGithub } from "react-icons/ai";
 import Reveal from "./Reveal";
+import resume from "../assets/my-resume.pdf";
 
 import { Link } from "react-router-dom";
 
 const projects = [
   {
-    img: project1,
+    img: "https://i.postimg.cc/VstYW1yR/1.jpg",
     title: "Dimchi",
     description:
       "A single page site built with react, styled components for design and framer for animations",
@@ -20,7 +16,7 @@ const projects = [
     },
   },
   {
-    img: project2,
+    img: "https://i.postimg.cc/SsBmb19C/2.jpg",
     title: "The Brown Patience Company",
     description:
       "A fullstack application built with React and FireBase as the backend, tailwind and css3 as the design choice.",
@@ -30,7 +26,7 @@ const projects = [
     },
   },
   {
-    img: project4,
+    img: "https://i.postimg.cc/Ss2m5bnm/3.jpg",
     title: "React Blog Site",
     description:
       "A dynamic blog site that is built with vite-react , firebase as database and authentication,  tailwind and css3 as the design tech and Tinymce as the cms of choice",
@@ -40,7 +36,7 @@ const projects = [
     },
   },
   {
-    img: project5,
+    img: "https://i.postimg.cc/yYz7f5sz/5.jpg",
     title: "GitHub Profile Finder",
     description:
       "A personal project application built with react to improve my skill on call data from an api ",
@@ -50,7 +46,7 @@ const projects = [
     },
   },
   {
-    img: project6,
+    img: "https://i.postimg.cc/yx0s1hh5/4.jpg",
     title: "E-Store",
     description:
       "A personal project appliction built with react to improve my skills in filtering data with different parameters",
@@ -108,7 +104,7 @@ const Portfolio = () => {
       <div className=" flex flex-wrap gap-4  md:w-auto text-center">
         <button className="mx-auto " id="custom-btn">
           <span>
-            <Link href="#"></Link>
+            <a href={resume} download="" target="_blank" rel="noreferrer"></a>
           </span>
         </button>
       </div>
