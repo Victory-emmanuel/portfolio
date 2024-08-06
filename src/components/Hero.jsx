@@ -7,6 +7,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { DiCss3, DiHtml5, DiJavascript1, DiReact } from "react-icons/di";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -66,13 +67,22 @@ const Hero = () => {
                 scale: 1.05,
                 boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)",
               }}
-              className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border  border-[#FF204E] rounded-xl"
+              className="z-10 cursor-pointer "
             >
-              Download CV
+              <div className=" flex flex-wrap gap-4  md:w-auto text-center">
+                <button id="custom-btn">
+                  <span>
+                    <Link href="#"></Link>
+                  </span>
+                </button>
+              </div>
             </motion.button>
 
             <div className="flex gap-6 flex-row text-4xl md:text-6xl text-[#FF204E] z-20">
-              <motion.a whileHover={{ scale: 1.2 }} href="#">
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                href="https://github.com/Victory-emmanuel?tab=repositories"
+              >
                 <AiOutlineGithub />
               </motion.a>
 

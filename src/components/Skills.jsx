@@ -10,7 +10,9 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import { SiCanva, SiVite } from "react-icons/si";
 import { LiaFigma } from "react-icons/lia";
+import { SiMui } from "react-icons/si";
 import Reveal from "./Reveal";
+import { Link } from "react-router-dom";
 
 const skills = [
   {
@@ -30,6 +32,7 @@ const skills = [
       { name: "React", icon: <DiReact className="text-blue-500" /> },
       { name: "Figma", icon: <LiaFigma className="text-orange-400" /> },
       { name: "Canva", icon: <SiCanva className="text-blue-300" /> },
+      { name: "MUi", icon: <SiMui className="text-blue-600" /> },
     ],
   },
   {
@@ -58,9 +61,9 @@ const Skills = () => {
         </h2>
         <p className="text-center mb-8">
           I worked on various frontend and fullstack projects. Check them{" "}
-          <a href="#" className="underline">
+          <Link to="/PortfolioPg" className="underline">
             there
-          </a>
+          </Link>
           .
         </p>
 

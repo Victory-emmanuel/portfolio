@@ -1,21 +1,21 @@
-import Contact from "./components/Contact";
-import Experience from "./components/Experience";
+import PortfolioPg from "./pages/PortfolioPg";
 import Footer from "./components/Footer";
-import Hero from "./components/Hero";
+import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
-import Portfolio from "./components/Portfolio";
-import Skills from "./components/Skills";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
     <>
-      <Navbar/>
-      <Hero/>
-      <Skills/>
-      <Portfolio/>
-      <Experience/>
-      <Contact/>
-      <Footer/>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/PortfolioPg" element={<PortfolioPg />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
-  )
+  );
 }

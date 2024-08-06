@@ -1,4 +1,3 @@
-import React from "react";
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project4 from "../assets/project4.png";
@@ -7,51 +6,57 @@ import project6 from "../assets/project6.png";
 import { AiFillGithub, AiOutlineGithub } from "react-icons/ai";
 import Reveal from "./Reveal";
 
+import { Link } from "react-router-dom";
+
 const projects = [
   {
     img: project1,
-    title: "Project #1",
-    description: "UI for frontend development using React.",
+    title: "Dimchi",
+    description:
+      "A single page site built with react, styled components for design and framer for animations",
     links: {
-      site: "#",
-      github: "#",
+      site: "https://dimchi.vercel.app",
+      github: "https://github.com/Victory-emmanuel/dimchi2",
     },
   },
   {
     img: project2,
-    title: "Project #2",
-    description: "A fullstack application built with Node.js and MongoDB.",
+    title: "The Brown Patience Company",
+    description:
+      "A fullstack application built with React and FireBase as the backend, tailwind and css3 as the design choice.",
     links: {
-      site: "#",
-      github: "#",
+      site: "https://the-brown-patience-company.vercel.app/",
+      github: "https://github.com/Victory-emmanuel/the-brown-patience-compsny",
     },
   },
   {
     img: project4,
-    title: "Project #3",
-    description: "An e-commerce platform with various features.",
+    title: "React Blog Site",
+    description:
+      "A dynamic blog site that is built with vite-react , firebase as database and authentication,  tailwind and css3 as the design tech and Tinymce as the cms of choice",
     links: {
-      site: "#",
-      github: "#",
+      site: "https://my-blog-pi-two.vercel.app/",
+      github: "https://github.com/Victory-emmanuel/myBlog",
     },
   },
   {
     img: project5,
-    title: "Project #4",
-    description: "A mobile-friendly application using React Native.",
+    title: "GitHub Profile Finder",
+    description:
+      "A personal project application built with react to improve my skill on call data from an api ",
     links: {
-      site: "#",
-      github: "#",
+      site: "https://gh-profile-searcher.vercel.app/",
+      github: "https://github.com/Victory-emmanuel/gh-profile-searcher",
     },
   },
   {
     img: project6,
-    title: "Project #5",
+    title: "E-Store",
     description:
-      "A data visualization project using D3.js and other libraries.",
+      "A personal project appliction built with react to improve my skills in filtering data with different parameters",
     links: {
-      site: "#",
-      github: "#",
+      site: "https://e-shop-two-beta.vercel.app/",
+      github: "https://github.com/Victory-emmanuel/e-shop",
     },
   },
 ];
@@ -99,6 +104,14 @@ const Portfolio = () => {
           </div>
         </Reveal>
       ))}
+
+      <div className=" flex flex-wrap gap-4  md:w-auto text-center">
+        <button className="mx-auto " id="custom-btn">
+          <span>
+            <Link href="#"></Link>
+          </span>
+        </button>
+      </div>
     </div>
   );
 };
