@@ -105,8 +105,8 @@ const Portfolio = () => {
         <button className="" id="custom-btn">
           <span className="w-[180px] h-[55px] mx-[15px]">
             <a
-              className="text-lg before:content-['View'] after:content-['View_More']	before:w-[180px] after:w-[180px] before:h-[55px] after:h-[55px]"
-              href="#"
+              className="text-lg before:content-['View_More'] after:content-['View_More']	before:w-[180px] after:w-[180px] before:h-[55px] after:h-[55px]"
+              href="https://linktr.ee/victory125"
             ></a>
           </span>
         </button>
