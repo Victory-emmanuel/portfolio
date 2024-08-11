@@ -38,7 +38,7 @@ const Navbar = () => {
         text-xl items-center px-12 h-20"
       >
         <a className="font-semibold text-secondary text-2xl " href="#">
-          V.Dev
+          CodeSquid
         </a>
 
         <ul className="hidden md:flex gap-12 z-10 cursor-pointer">

@@ -51,7 +51,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1 }}
             className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6"
           >
-            I am a passionate frontend engineer with over 3 years of experience
+            I am a passionate frontend engineer with over 2 years of experience
             freelancing...
           </motion.p>
 
@@ -69,10 +69,11 @@ const Hero = () => {
               }}
               className="z-10 cursor-pointer "
             >
-              <div className=" flex flex-wrap gap-4  md:w-auto text-center">
-                <button id="custom-btn">
-                  <span>
+              <div className="mt-8 flex flex-wrap  xx:justify-center ss:justify-start ">
+                <button className="" id="custom-btn">
+                  <span className="w-[180px] h-[55px] mx-[15px]">
                     <a
+                      className="text-lg before:content-['Download_CV'] after:content-['Download_CV']	before:w-[180px] after:w-[180px] before:h-[55px] after:h-[55px]"
                       href={resume}
                       download=""
                       target="_blank"

@@ -101,10 +101,13 @@ const Portfolio = () => {
         </Reveal>
       ))}
 
-      <div className=" flex flex-wrap gap-4  md:w-auto text-center">
-        <button className="mx-auto " id="custom-btn">
-          <span>
-            <a href={resume} download="" target="_blank" rel="noreferrer"></a>
+      <div className="mt-8 flex flex-wrap  xx:justify-center ss:justify-start ">
+        <button className="" id="custom-btn">
+          <span className="w-[180px] h-[55px] mx-[15px]">
+            <a
+              className="text-lg before:content-['View'] after:content-['View_More']	before:w-[180px] after:w-[180px] before:h-[55px] after:h-[55px]"
+              href="#"
+            ></a>
           </span>
         </button>
       </div>

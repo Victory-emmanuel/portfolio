@@ -48,25 +48,17 @@ span {
 #custom-btn span {
   position: relative;
   display: inline-flex;
-  width: 180px;
-  height: 55px;
-  margin: 0 15px;
   perspective: 1000px;
 }
 #custom-btn span a {
-  font-size: 19px;
   letter-spacing: 1px;
   transform-style: preserve-3d;
   transform: translateZ(-25px);
   transition: transform 0.25s;
-  font-family: "Montserrat", sans-serif;
 }
 #custom-btn span a:before,
 #custom-btn span a:after {
   position: absolute;
-  content: " Download CV";
-  height: 55px;
-  width: 180px;
   display: flex;
   align-items: center;
   justify-content: center;
