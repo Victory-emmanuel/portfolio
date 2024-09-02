@@ -31,13 +31,13 @@ const Experience = () => {
               viewport={{ once: false, amount: 0.3 }}
               transition={{ duration: 1 }}
               className=" border border-secondary p-6 rounded-lg shadow-md
-                    hover:shadow-xl transition-shadow duration-300 bg-extraClr"
+                    hover:shadow-xl transition-shadow duration-300 bg-primary"
             >
               <h2 className="text-secondary  text-2xl font-semibold">
                 {experience.company}
               </h2>
-              <p className="text-white">{experience.period}</p>
-              <p className="text-gray-400 mt-4">{experience.description}</p>
+              <p className="text-lightPurple">{experience.period}</p>
+              <p className="text-white mt-4">{experience.description}</p>
             </motion.div>
           </Reveal>
         ))}
