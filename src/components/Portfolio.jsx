@@ -83,17 +83,16 @@ const Portfolio = () => {
               <div className="flex space-x-4">
                 <a
                   href={project.links.site}
-                  className="px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
+                  className="px-4 py-2 bg-primary text-gray-200 rounded-lg hover:bg-extraClr
                                         transition duration-300"
                 >
                   View Site
                 </a>
                 <a
                   href={project.links.github}
-                  className="px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
-                                        transition duration-300"
+                  className="px-4 py-3 bg-extraClr text-gray-200 rounded-lg hover:bg-extraClr transition duration-300"
                 >
-                  <AiOutlineGithub />
+                  <AiOutlineGithub className="my-auto" />
                 </a>
               </div>
             </div>

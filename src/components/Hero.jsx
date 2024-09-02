@@ -30,7 +30,7 @@ const Hero = () => {
             ]}
             speed={50}
             repeat={Infinity}
-            className="font-bold text-[#A0153E] text-xl md:text-5xl italic- mb-4"
+            className="font-bold text-lightPurple text-xl md:text-5xl italic- mb-4"
           />
 
           <motion.p
@@ -41,7 +41,7 @@ const Hero = () => {
             className="text-white md:text-7xl text-5xl tracking-tight mb-4"
           >
             HEY, I AM <br />
-            <span className="text-[#FF204E]">Victory Emmanuel</span>
+            <span className="text-secondary">Victory Emmanuel</span>
           </motion.p>
 
           <motion.p
@@ -49,7 +49,7 @@ const Hero = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 1 }}
-            className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6"
+            className="text-white max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6"
           >
             I am a passionate frontend engineer with over 2 years of experience
             freelancing...
@@ -84,7 +84,7 @@ const Hero = () => {
               </div>
             </motion.button>
 
-            <div className="flex gap-6 flex-row text-4xl md:text-6xl text-[#FF204E] z-20">
+            <div className="flex gap-6 flex-row text-4xl md:text-6xl text-lightPurple z-20">
               <motion.a
                 whileHover={{ scale: 1.2 }}
                 href="https://github.com/Victory-emmanuel?tab=repositories"
@@ -107,7 +107,7 @@ const Hero = () => {
         </motion.div>
 
         <motion.img
-          src="https://i.postimg.cc/V6MTrcNV/Untitled-design-7.png"
+          src="https://i.postimg.cc/x84mMXV5/6a2386.png"
           className="w-[300px] md:w-[450px]"
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}

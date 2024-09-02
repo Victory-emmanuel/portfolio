@@ -5,7 +5,7 @@
 
 body {
   font-family: "Space Grotesk", sans-serif;
-  background-color: #001836;
+  background-color: #42045a;
 }
 
 h2 {
@@ -16,10 +16,6 @@ p {
   @apply text-xl tracking-tight leading-relaxed;
 }
 
-span {
-  color: #ff204e;
-}
-
 .shiny-effect {
   position: absolute;
   border-radius: 50%;
@@ -28,13 +24,9 @@ span {
 
   background: radial-gradient(
     circle,
-    rgb(0, 34, 77) 8%,
+    rgb(87, 0, 121) 8%,
     rgb(160, 21, 62) transparent 70%
   );
-}
-
-.bg-primary-color {
-  @apply bg-red-500;
 }
 
 /* Custom Button */
@@ -62,18 +54,18 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 5px solid #ff204e;
+  border: 5px solid #c868eb;
   box-sizing: border-box;
   border-radius: 5px;
 }
 #custom-btn span a:before {
   color: #fff;
-  background: #5d0e41;
+  background: #590f76;
   transform: rotateY(0deg) translateZ(25px);
 }
 #custom-btn span a:after {
-  background-color: #ff204e;
-  color: #fff;
+  background-color: #c868eb;
+  color: #42045a;
   transform: rotateX(90deg) translateZ(25px);
 }
 #custom-btn span a:hover {
