@@ -12,7 +12,7 @@ const Footer = () => {
           <a href="https://github.com/Victory-emmanuel?tab=repositories">
             <FaGithubSquare />
           </a>
-          <a href="#">
+          <a href="  https://wa.me/2348109125793">
             <FaWhatsapp />
           </a>
         </div>
