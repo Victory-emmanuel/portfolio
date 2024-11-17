@@ -55,6 +55,26 @@ const projects = [
       github: "https://github.com/Victory-emmanuel/e-shop",
     },
   },
+  {
+    img: "https://i.postimg.cc/LsV561TV/3.png",
+    title: "Online-Shop",
+    description:
+      "A personal project applictionto improve my ui and animation skills",
+    links: {
+      site: "https://shop-whatever.vercel.app/",
+      github: "https://github.com/Victory-emmanuel/online-shop",
+    },
+  },
+  {
+    img: "https://i.postimg.cc/tgb7j5hT/2.png",
+    title: "Porfolio Website",
+    description:
+      "A personal portfolio template project website built with vite-react, material-tailwind and framer",
+    links: {
+      site: "https://portfolio-demo-2.vercel.app/",
+      github: "https://github.com/Victory-emmanuel/portfolio-2",
+    },
+  },
 ];
 
 const Portfolio = () => {
