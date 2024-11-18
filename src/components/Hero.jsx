@@ -124,7 +124,7 @@ const Hero = () => {
         className="flex ss:flex-row flex-col text-7xl px-12 md:px-0 w-full justify-center items-center py-24"
       >
         <p className="text-secondary font-semibold  mr-6">My Tech Stack:</p>
-        <div className="flex flex-row w-full">  
+        <div className="flex flex-row w-full justify-center items-center">  
           <DiHtml5 className="text-orange-600 mx-2" />
         <DiCss3 className="text-blue-600 mx-2" />
         <DiJavascript1 className="text-yellow-500 mx-2" />
