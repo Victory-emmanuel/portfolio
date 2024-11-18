@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 import resume from "../assets/my-resume.pdf";
 const Hero = () => {
   return (
-    <div className="mt-24 max-w-[1200px] mx-auto relative">
+    <div className="mt-24 max-w-[1200px] mx-auto relative px-6">
       <div className="grid md:grid-cols-2 place-items-center gap-8">
         <motion.div
           initial={{ opacity: 0, y: -50 }}
@@ -40,7 +40,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 0.5 }}
             className="text-white md:text-7xl text-5xl tracking-tight mb-4"
           >
-            HEY, I AM <br />
+            Hey, I am <br />
             <span className="text-secondary">Victory Emmanuel</span>
           </motion.p>
 
@@ -60,7 +60,7 @@ const Hero = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 1.5 }}
-            className="flex flex-row items-center gap-6 my-4 md:mb-0"
+            className="flex ss:flex-row flex-col ss:items-center item-left gap-6 my-4 md:mb-0"
           >
             <motion.button
               whileHover={{
@@ -69,9 +69,9 @@ const Hero = () => {
               }}
               className="z-10 cursor-pointer "
             >
-              <div className="mt-8 flex flex-wrap  xx:justify-center ss:justify-start ">
+              <div className="mt-8 flex flex-wrap justify-start ">
                 <button className="" id="custom-btn">
-                  <span className="w-[180px] h-[55px] mx-[15px]">
+                  <span className="w-[180px] h-[55px] ss:mr-[15px] mr-0">
                     <a
                       className="text-lg before:content-['Download_CV'] after:content-['Download_CV']	before:w-[180px] after:w-[180px] before:h-[55px] after:h-[55px]"
                       href={resume}
@@ -121,15 +121,18 @@ const Hero = () => {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 1, delay: 2 }}
-        className="flex flex-row text-7xl px-12 md:px-0 w-full justify-center items-center py-24"
+        className="flex ss:flex-row flex-col text-7xl px-12 md:px-0 w-full justify-center items-center py-24"
       >
         <p className="text-secondary font-semibold  mr-6">My Tech Stack:</p>
-        <DiHtml5 className="text-orange-600 mx-2" />
+        <div className="flex flex-row w-full">  
+          <DiHtml5 className="text-orange-600 mx-2" />
         <DiCss3 className="text-blue-600 mx-2" />
         <DiJavascript1 className="text-yellow-500 mx-2" />
         <DiReact className="text-blue-500 mx-2" />
         <IoLogoFirebase className="text-orange-500 mx-2" />
         <BiLogoTailwindCss className="text-blue-400" />
+        </div>
+      
       </motion.div>
 
       <div className="absolute inset-0 hidden md:block">
