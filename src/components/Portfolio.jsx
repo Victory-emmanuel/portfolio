@@ -49,7 +49,7 @@ const projects = [
     img: "https://i.postimg.cc/yx0s1hh5/4.jpg",
     title: "E-Store",
     description:
-      "A personal project appliction built with react to improve my skills in filtering data with different parameters",
+      "A personal project application built with react to improve my skills in filtering data with different parameters",
     links: {
       site: "https://e-shop-two-beta.vercel.app/",
       github: "https://github.com/Victory-emmanuel/e-shop",
@@ -59,7 +59,7 @@ const projects = [
     img: "https://i.postimg.cc/LsV561TV/3.png",
     title: "Online-Shop",
     description:
-      "A personal project applictionto improve my ui and animation skills",
+      "A personal project to improve my ui and animation skills .",
     links: {
       site: "https://shop-whatever.vercel.app/",
       github: "https://github.com/Victory-emmanuel/online-shop",
